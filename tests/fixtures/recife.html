@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head><meta charset="utf-8"><title>Recife (PE) | Cidades e Estados | IBGE</title></head>
+<body>
+<div class="quick-facts-resultados pure-u-1" data-codigo="2611606" id="responseMunicipios">
+ <div class="quick-facts-titulo">
+  <h1>
+   Recife
+  </h1>
+  <p class="codigo">
+   Código: 2611606
+  </p>
+  <div class="export-container">
+   <button class="botao botao-dropdown" onclick="jQuery(this).next().slideToggle(250);">
+    Exportar
+   </button>
+   <div class="export-dropdown">
+    <label for="atual">
+     <input checked="" data-cod="2611606" id="atual" name="radio-export" type="radio" value="atual"/>
+     Recife
+    </label>
+    <label for="estados">
+     <input data-cod="26xxxxx'" id="estados" name="radio-export" type="radio" value="municipios"/>
+     Todos os Municípios - PE
+    </label>
+    <label for="municipios">
+     <input data-cod="xx" id="municipios" name="radio-export" type="radio" value="estados"/>
+     Todas as UFs
+    </label>
+    <div class="quick-facts-exportar pure-u-1">
+     <input id="token" name="ibge_export_token" type="hidden" value="79ededf5a7547a05e3bf6df568af1457"/>
+     <p>
+      <b>
+       Baixar:
+      </b>
+     </p>
+     <button class="botao" onclick="exportData('xlsx');">
+      XLSX
+     </button>
+     <button class="botao" onclick="exportData('xls');">
+      XLS
+     </button>
+     <button class="botao" onclick="exportData('ods');">
+      ODS
+     </button>
+     <button class="botao" onclick="exportData('csv');">
+      CSV
+     </button>
+    </div>
+   </div>
+  </div>
+  <div class="clear">
+  </div>
+ </div>
+ <div class="pure-g">
+  <div class="pure-u-1 pure-u-lg-10-24">
+   <div id="map" style="width: 100%; height: 550px">
+   </div>
+   <ul class="resultados-destaque">
+    <li>
+     <div class="indicador">
+      <div class="ind-label">
+       <p>
+        Prefeito
+       </p>
+      </div>
+      <p class="ind-value">
+       JOÃO HENRIQUE DE ANDRADE LIMA CAMPOS
+       <small>
+        [2025]
+       </small>
+      </p>
+     </div>
+    </li>
+    <li>
+     <div class="indicador">
+      <div class="ind-label">
+       <p>
+        Gentílico
+       </p>
+      </div>
+      <p class="ind-value">
+       recifense
+      </p>
+     </div>
+    </li>
+   </ul>
+   <div class="quick-facts-cidades pure-u-1">
+    <a class="botao link-cidades" href="//cidades.ibge.gov.br/brasil/pe/recife" rel="noopener" target="_blank">
+     Saiba mais no portal Cidades@
+    </a>
+   </div>
+  </div>
+  <div class="pure-u-1 pure-u-lg-14-24">
+   <ul class="resultados-padrao">
+    <li>
+     <div class="indicador">
+      <div class="ind-label">
+       <img alt="Área Territorial" src="/modules/mod_quick_facts/css/images/area.png"/>
+       <p>
+        Área Territorial
+       </p>
+      </div>
+      <p class="ind-value">
+       218,843
+       <span class="indicador-unidade">
+        km²
+       </span>
+       <small>
+        [2025]
+       </small>
+      </p>
+     </div>
+    </li>
+    <li>
+     <div class="indicador">
+      <div class="ind-label">
+       <img alt="População no último censo" src="/modules/mod_quick_facts/css/images/populacao.png"/>
+       <p>
+        População no último censo
+       </p>
+      </div>
+      <p class="ind-value">
+       1.488.920
+       <span class="indicador-unidade">
+        pessoas
+       </span>
+       <small>
+        [2022]
+       </small>
+      </p>
+     </div>
+    </li>
+    <li>
+     <div class="indicador">
+      <div class="ind-label">
+       <img alt="Densidade demográfica" src="/modules/mod_quick_facts/css/images/densidade.png"/>
+       <p>
+        Densidade demográfica
+       </p>
+      </div>
+      <p class="ind-value">
+       6.803,60
+       <span class="indicador-unidade">
+        hab/km²
+       </span>
+       <small>
+        [2022]
+       </small>
+      </p>
+     </div>
+    </li>
+    <li>
+     <div class="indicador">
+      <div class="ind-label">
+       <img alt="População estimada" src="/modules/mod_quick_facts/css/images/populacao.png"/>
+       <p>
+        População estimada
+       </p>
+      </div>
+      <p class="ind-value">
+       1.588.983
+       <span class="indicador-unidade">
+        pessoas
+       </span>
+       <small>
+        [2026]
+       </small>
+      </p>
+     </div>
+    </li>
+    <li class="has-chart" data-grafico="60045">
+     <div class="indicador active">
+      <input class="chart-values" type="hidden" value='["97.1","97.57"]'/>
+      <input class="chart-labels" type="hidden" value='["2010","2022"]'/>
+      <div class="ind-label">
+       <img alt="Escolarização &lt;span&gt;6 a 14 anos&lt;/span&gt;" src="/modules/mod_quick_facts/css/images/escolarizacao.png"/>
+       <p>
+        Escolarização
+        <span>
+         6 a 14 anos
+        </span>
+       </p>
+      </div>
+      <p class="ind-value">
+       97,57
+       <span class="indicador-unidade">
+        %
+       </span>
+       <small>
+        [2022]
+       </small>
+      </p>
+     </div>
+     <div class="chart-container" id="chart_60045" style="position: relative; display: block;">
+      <div class="resize-sensor" dir="ltr" style="pointer-events: none; position: absolute; inset: 0px; overflow: hidden; z-index: -1; visibility: hidden; max-width: 100%;">
+       <div class="resize-sensor-expand" style="pointer-events: none; position: absolute; inset: 0px; overflow: hidden; z-index: -1; visibility: hidden; max-width: 100%;">
+        <div style="position: absolute; left: 0px; top: 0px; transition: all; width: 692px; height: 310px;">
+        </div>
+       </div>
+       <div class="resize-sensor-shrink" style="pointer-events: none; position: absolute; inset: 0px; overflow: hidden; z-index: -1; visibility: hidden; max-width: 100%;">
+        <div style="position: absolute; left: 0px; top: 0px; transition: all; width: 200%; height: 200%;">
+        </div>
+       </div>
+      </div>
+      <div style="width: 100%; height: 100%; position: relative; left: -0.200012px; top: -0.5px;">
+      </div>
+     </div>
+    </li>
+    <li class="has-chart" data-grafico="329756">
+     <div class="indicador">
+      <input class="chart-values" type="hidden" value='["0.576","0.660","0.772"]'/>
+      <input class="chart-labels" type="hidden" value='["1991","2000","2010"]'/>
+      <div class="ind-label">
+       <img alt="IDHM &lt;span&gt;Índice de desenvolvimento humano municipal&lt;/span&gt;" src="/modules/mod_quick_facts/css/images/idh.png"/>
+       <p>
+        IDHM
+        <span>
+         Índice de desenvolvimento humano municipal
+        </span>
+       </p>
+      </div>
+      <p class="ind-value">
+       0,772
+       <small>
+        [2010]
+       </small>
+      </p>
+     </div>
+    </li>
+    <li class="has-chart" data-grafico="30279">
+     <div class="indicador">
+      <input class="chart-values" type="hidden" value='["14.44","12.7","12.22","13.79","12.89","12.56","12.15","12.38","11.95","10.48","11.91","10.83","10.53","11.5","11.2","10.03","10.93","12.32","11.85","12.36"]'/>
+      <input class="chart-labels" type="hidden" value='["2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024","2025"]'/>
+      <div class="ind-label">
+       <img alt="Mortalidade infantil" src="/modules/mod_quick_facts/css/images/mortalidade.png"/>
+       <p>
+        Mortalidade infantil
+       </p>
+      </div>
+      <p class="ind-value">
+       12,36
+       <span class="indicador-unidade">
+        óbitos por mil nascidos vivos
+       </span>
+       <small>
+        [2025]
+       </small>
+      </p>
+     </div>
+    </li>
+    <li class="has-chart" data-grafico="28141">
+     <div class="indicador">
+      <input class="chart-values" type="hidden" value='["3881050416.36","4274115892.47","4334320388.94","4399909356.46","4647161247.53","5280028038.95","5308205663.68","5633458546.74","6161506452.72","7322241637.06","8255113251.47","9506737206.76","10427894669.07"]'/>
+      <input class="chart-labels" type="hidden" value='["2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024","2025"]'/>
+      <div class="ind-label">
+       <img alt="Total de receitas brutas realizadas" src="/modules/mod_quick_facts/css/images/receitas.png"/>
+       <p>
+        Total de receitas brutas realizadas
+       </p>
+      </div>
+      <p class="ind-value">
+       10.427.894.669,07
+       <span class="indicador-unidade">
+        R$
+       </span>
+       <small>
+        [2025]
+       </small>
+      </p>
+     </div>
+    </li>
+    <li class="has-chart" data-grafico="29749">
+     <div class="indicador">
+      <input class="chart-values" type="hidden" value='["3560806988.00","4050607108.00","4255086381.00","4099421978.00","4359406348.00","4858890488.00","5337440699.00","5542736999.00","5812387234.00","6752058886.76","7980646400.46","9424050396.32","9660349174.86"]'/>
+      <input class="chart-labels" type="hidden" value='["2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024","2025"]'/>
+      <div class="ind-label">
+       <img alt="Total de despesas brutas empenhadas" src="/modules/mod_quick_facts/css/images/despesas.png"/>
+       <p>
+        Total de despesas brutas empenhadas
+       </p>
+      </div>
+      <p class="ind-value">
+       9.660.349.174,86
+       <span class="indicador-unidade">
+        R$
+       </span>
+       <small>
+        [2025]
+       </small>
+      </p>
+     </div>
+    </li>
+    <li class="has-chart" data-grafico="47001">
+     <div class="indicador">
+      <input class="chart-values" type="hidden" value='["21711.85","24332.68","27581.69","29240.89","31405.82","29718.26","30392.42","31731.30","31996.33","32494.86","29935.42","33094.36","40350.57","44563.38"]'/>
+      <input class="chart-labels" type="hidden" value='["2010","2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021","2022","2023"]'/>
+      <div class="ind-label">
+       <img alt="PIB per capita" src="/modules/mod_quick_facts/css/images/pib.png"/>
+       <p>
+        PIB per capita
+       </p>
+      </div>
+      <p class="ind-value">
+       44.563,38
+       <span class="indicador-unidade">
+        R$
+       </span>
+       <small>
+        [2023]
+       </small>
+      </p>
+     </div>
+    </li>
+   </ul>
+   <div class="quick-facts-fontes">
+    <button class="botao" onclick="jQuery('.fontes-container').slideToggle();">
+     Notas e fontes
+    </button>
+    <div style="clear: both; float: none;">
+    </div>
+    <table class="fontes-container">
+     <tbody>
+      <tr>
+       <th>
+        <b>
+         Notas:
+        </b>
+       </th>
+      </tr>
+      <tr>
+       <td>
+        <b>
+         Escolarização
+         <span>
+          6 a 14 anos
+         </span>
+         :
+        </b>
+        [população residente no município de 6 a 14 anos de idade matriculada no ensino regular/total de população residente no município de 6 a 14 anos de idade] x 100
+       </td>
+      </tr>
+      <tr>
+       <th>
+        <b>
+         Fontes:
+        </b>
+       </th>
+      </tr>
+      <tr>
+       <td>
+        <b>
+         Área Territorial:
+        </b>
+        Área territorial brasileira 2022. Rio de Janeiro: IBGE, 2023
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <b>
+         População no último censo:
+        </b>
+        Censo 2022: População e Domicílios - Primeiros Resultados - Atualizado em 22/12/2023
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <b>
+         Densidade demográfica:
+        </b>
+        Censo 2022: População e Domicílios - Primeiros Resultados - Atualizado em 22/12/2023
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <b>
+         População estimada:
+        </b>
+        IBGE, Diretoria de Pesquisas, Coordenação de População e Indicadores Sociais, Estimativas da população residente com data de referência 1o de julho de 2024
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <b>
+         Escolarização
+         <span>
+          6 a 14 anos
+         </span>
+         :
+        </b>
+        IBGE, Censo Demográfico 2010
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <b>
+         IDHM
+         <span>
+          Índice de desenvolvimento humano municipal
+         </span>
+         :
+        </b>
+        Programa das Nações Unidas para o Desenvolvimento - PNUD
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <b>
+         Mortalidade infantil:
+        </b>
+        Ministério da Saúde, Departamento de Informática do Sistema Único de Saúde - DATASUS 2022
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <b>
+         Total de receitas brutas realizadas:
+        </b>
+        Siconfi: Sistema de Informações Contábeis e Fiscais do Setor Público Brasileiro. Brasília, DF, [2023]. Disponível em: https://siconfi.tesouro.gov.br/siconfi/pages/public/consulta_finbra/finbra_list.jsf. Acesso em: jun. 2024, Contas anuais. Receitas orçamentárias realizadas (Anexo I-C) 2023 e Despesas orçamentárias empenhadas (Anexo I-D) 2023. In: Brasil. Secretaria do Tesouro Nacional
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <b>
+         Total de despesas brutas empenhadas:
+        </b>
+        Siconfi: Sistema de Informações Contábeis e Fiscais do Setor Público Brasileiro. Brasília, DF, [2023]. Disponível em: https://siconfi.tesouro.gov.br/siconfi/pages/public/consulta_finbra/finbra_list.jsf. Acesso em: jun. 2024, Contas anuais. Receitas orçamentárias realizadas (Anexo I-C) 2023 e Despesas orçamentárias empenhadas (Anexo I-D) 2023. In: Brasil. Secretaria do Tesouro Nacional
+       </td>
+      </tr>
+      <tr>
+       <td>
+        <b>
+         PIB per capita:
+        </b>
+        IBGE, em parceria com os Órgãos Estaduais de Estatística, Secretarias Estaduais de Governo e Superintendência da Zona Franca de Manaus - SUFRAMA
+       </td>
+      </tr>
+     </tbody>
+    </table>
+   </div>
+  </div>
+ </div>
+ <form action="/html_dev/export.php" id="exportForm" method="post">
+  <input id="renderer" name="renderer" type="hidden"/>
+  <input id="data" name="data" type="hidden"/>
+ </form>
+</div>
+</body>
+</html>
